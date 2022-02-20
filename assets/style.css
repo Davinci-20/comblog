@@ -1,0 +1,73 @@
+body {
+ background-color: #2b2c2c;
+}
+
+.nav .nav-item .nav-link {
+ color: #ffff !important;
+}
+
+.header {
+ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+  url("article_img/map.jpg");
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ border-bottom-left-radius: 10%;
+ border-bottom-right-radius: 15%;
+}
+
+.card {
+ border-radius: 20px !important;
+}
+
+.card-dark {
+ background-color: rgba(0, 0, 0, 0.2);
+ color: white;
+}
+
+.effect {
+ font-size: 50px;
+
+ color: white;
+ position: relative;
+ animation-name: example;
+ animation-duration: 4s;
+ animation-iteration-count: 1;
+}
+
+@keyframes example {
+ 0% {
+  color: white;
+  left: 0px;
+  top: 0px;
+ }
+ 25% {
+  color: green;
+  left: 300px;
+  top: 0px;
+ }
+ 50% {
+  color: lightblue;
+  left: 600px;
+  top: 0px;
+ }
+
+ 75% {
+  color: yellow;
+  left: 300px;
+  top: 0px;
+ }
+ 100% {
+  color: yellow;
+  left: 0px;
+  top: 0px;
+ }
+}
+.ef {
+ font-weight: bold;
+}
+h1 {
+ font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+ font-style: oblique;
+}

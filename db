@@ -1,0 +1,41 @@
+user
+====
+id
+name
+email
+password
+
+language
+========
+id
+slug (when check that user search that same what language)
+name(php)
+
+category
+=======
+id
+slug
+name
+
+articles
+========
+id
+slug
+title
+image
+category_id
+user_id
+description
+
+article_language
+================
+article_id
+language_id
+
+article like
+===========
+user_id
+article_id
+
+                            <div class='card-dark mt-1'>
+                                                                        
